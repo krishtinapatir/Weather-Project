@@ -69,3 +69,58 @@
     width: 26px;
     margin-top: 10px;
 }
+
+
+
+@media screen and (max-width: 600px) {
+  .weather {
+    padding: 20px;
+    border-radius: 16px;
+    margin: 20px;
+    width: 90%;
+  }
+
+  .temperature {
+    font-size: 50px;
+  }
+
+  .location {
+    font-size: 28px;
+  }
+
+  .weather-data {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .weather-data .col {
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  .weather-data .col span {
+    font-size: 14px;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .search-bar input {
+    width: 100%;
+    font-size: 16px;
+    height: 45px;
+  }
+
+  .search-bar img {
+    width: 45px;
+    padding: 12px;
+  }
+
+  .weather-icon {
+    width: 100px;
+  }
+}
